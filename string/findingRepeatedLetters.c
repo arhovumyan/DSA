@@ -2,12 +2,12 @@
 #include <string.h>
 
 const char *duplicateFinder(char *text) { // check why you have to put in const when declaring this function
-  int H[26] = {0}, i;
+  int H[26] = {0};
 //   char *a[] = text;
   const char *didNotFind = "This string does not contain any duplicate letters";
   const char *found = "This string constains duplicate letters";
 
-    for (i = 0; text[i] != '\0'; i++) {
+    for (int i = 0; text[i] != '\0'; i++) {
         H[text[i] - 97] += 1;
     }
 
