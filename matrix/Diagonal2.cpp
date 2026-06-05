@@ -50,8 +50,8 @@ Diagonal::~Diagonal()
 int main() {
     Diagonal d = 4;
 
-    d.set(1,1,4);
-    d.set(2,2,1);
+    d.set(1,1, 4);
+    d.set(2,2, 1);
     d.set(3,3,24);
     d.set(4,4,31);
 
